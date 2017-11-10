@@ -1,0 +1,4 @@
+from hms.model.JythonHms import * 
+OpenProject ("Siron", "C:\Users\Dragos\Documents\Water models\Siron-new\Siron") 
+Compute ("RunNew") 
+Exit(1)

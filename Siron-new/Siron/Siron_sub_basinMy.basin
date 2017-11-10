@@ -1,0 +1,70 @@
+Basin: Siron sub-basin
+     Description: HMS model
+     Last Modified Date: 23 June 2016
+     Last Modified Time: 12:21:37
+     Version: 4.2.1
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: Subbasin-1
+     Last Modified Date: 23 June 2016
+     Last Modified Time: 12:39:37
+     Canvas X: 1798.85
+     Canvas Y: 1038.2
+     Area: 220
+     Observed Hydrograph Gage: Discharge Gage 1
+
+     Canopy: None
+     Allow Simultaneous Precip Et: No
+     Plant Uptake Method: None
+
+     Surface: None
+
+     LossRate: SCS
+     Percent Impervious Area: 3
+     Curve Number: 59.2
+     Initial Abstraction: 35.01
+
+     Transform: Snyder
+     Snyder Method: Standard
+     Snyder Tp: 1.97
+     Snyder Cp: 0.3
+
+     Baseflow: Recession
+     Recession Factor: 0.25
+     Initial Baseflow: 7.3
+     Threshold Flow to Peak Ratio: 0.3
+End:
+
+Basin Schematic Properties:
+     Last View N: 5000.0
+     Last View S: -5000.0
+     Last View W: -5000.0
+     Last View E: 5000.0
+     Maximum View N: 1409.0
+     Maximum View S: 688.0
+     Maximum View W: 1503.0
+     Maximum View E: 2311.0
+     Extent Method: Maps
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+     Map: hms.map.MapGeoMap
+     Map File Name: C:\HEC-HMS\Siron\Siron.MAP
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: Yes
+End:

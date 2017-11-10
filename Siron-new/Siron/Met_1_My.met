@@ -1,0 +1,40 @@
+Meteorology: Met 1
+     Last Modified Date: 23 June 2016
+     Last Modified Time: 12:58:15
+     Version: 4.2.1
+     Unit System: Metric
+     Set Missing Data to Default: Yes
+     Precipitation Method: Weighted Gages
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Use Basin Model: Siron sub-basin
+End:
+
+Gage: Gage 1
+     Type: Recording
+End:
+
+Gage: Total Storm gage
+     Type: Total Storm
+     Total Precipitation: 82.7
+End:
+
+Precip Method Parameters: Weighted Gages
+     Last Modified Date: 23 June 2016
+     Last Modified Time: 12:44:56
+     Use HEC1 Weighting Scheme: Yes
+     Use Indexing: No
+     Allow Depth Override: No
+End:
+
+Subbasin: Subbasin-1
+     Last Modified Date: 23 June 2016
+     Last Modified Time: 13:00:56
+     Vapor Pressure Type: Relative Humidity
+     Relative Humidity Gage Name: --None--
+     Gage: Gage 1
+     Volume Weight: 1
+     Temporal Distribution Weight: 1
+End:
